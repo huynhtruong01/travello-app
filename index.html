@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <title>Travello App</title>
+</head>
+
+<body>
+    <!-- SCROLL UP -->
+    <div class="scroll-up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <div class="header__container">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <div class="header__nav">
+                    <nav>
+                        <ul class="menu-list">
+                            <li class="menu-list__item"><a href="#">Desitnations</a></li>
+                            <li class="menu-list__item"><a href="#">Hotels</a></li>
+                            <li class="menu-list__item"><a href="#">Flights</a></li>
+                            <li class="menu-list__item"><a href="#">Bookings</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__button">
+                        <button class="btn-login">Login</button>
+                        <button class="btn btn-sign-up">Sign up</button>
+                    </div>
+                </div>
+                <div class="header-mobile">
+                    <div class="bar-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="header-drawer">
+                        <div class="overlay"></div>
+                        <div class="header-drawer__menu-list">
+                            <div class="close-icon">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <ul class="menu-list-mobile">
+                                <li class="menu-list__item"><a href="#">Desitnations</a></li>
+                                <li class="menu-list__item"><a href="#">Hotels</a></li>
+                                <li class="menu-list__item"><a href="#">Flights</a></li>
+                                <li class="menu-list__item"><a href="#">Bookings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main">
+        <!-- INTRODUCTION -->
+        <section id="introduction">
+            <div class="bg-right">
+                <img src="./images/bg_decore.svg" alt="">
+            </div>
+            <div class="introduction-container container">
+                <div class="introduction-left">
+                    <div class="caption">Best Destinations around the world</div>
+                    <h1 class="title">
+                        Travel,<span class="title-underline">enjoy</span><br /> and live a new and full life
+                    </h1>
+                    <p class="description">Built Wicket longer admire do barton vanity itself do in it. Preferred to
+                        sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                    <div class="introduction-btns">
+                        <button class="btn btn-find-out">Find out more</button>
+                        <button class="btn-play">
+                            <span class="play-icon">
+                                <i class="fa-solid fa-play"></i>
+                            </span>
+                            Play Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="introduction-right">
+                    <div class="introduction-img">
+                        <img src="./images/introduction_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- CATEGORY -->
+        <section id="category" class="section-wrapper">
+            <div class="bg-star">
+                <img src="./images/bg_star.png" alt="">
+            </div>
+            <div class="category-container container">
+                <div class="category-header section-header">
+                    <div class="caption">Category</div>
+                    <h2 class="title">We Offer Best Services</h2>
+                </div>
+                <div class="category-cards">
+                    <ul class="list-category-card">
+                        <li class="category-card">
+                            <a href="#">
+                                <div class="category-icon">
+                                    <img src="./images/category_1.svg" alt="">
+                                </div>
+                                <div class="category-name">Calculated Weather</div>
+                                <p class="category-description">Built Wicket longer admire do barton vanity itself do in
+                                    it.</p>
+                            </a>
+                        </li>
+                        <li class="category-card">
+                            <a href="#">
+                                <div class="category-icon">
+                                    <img src="./images/category_2.svg" alt="">
+                                </div>
+                                <div class="category-name">Best Flights</div>
+                                <p class="category-description">Engrossed listening. Park gate sell they west hard for
+                                    the.</p>
+                            </a>
+                        </li>
+                        <li class="category-card">
+                            <a href="#">
+                                <div class="category-icon">
+                                    <img src="./images/category_3.svg" alt="">
+                                </div>
+                                <div class="category-name">Local Events</div>
+                                <p class="category-description">Barton vanity itself do in it. Preferd to men it
+                                    engrossed listening.</p>
+                            </a>
+                        </li>
+                        <li class="category-card">
+                            <a href="#">
+                                <div class="category-icon">
+                                    <img src="./images/category_4.svg" alt="">
+                                </div>
+                                <div class="category-name">Customization</div>
+                                <p class="category-description">We deliver outsourced aviation services for military
+                                    customers</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- DESTINATIONS -->
+        <section id="destination" class="section-wrapper">
+            <div class="destination-container container">
+                <div class="destination-header section-header">
+                    <div class="caption">Top selling</div>
+                    <h2 class="title">Top Destinations</h2>
+                </div>
+                <div class="destination-list-wrapper">
+                    <ul class="list-destination">
+                        <li class="destination-card">
+                            <a href="#">
+                                <div class="destination-img">
+                                    <img src="./images/destination_1.png" alt="">
+                                </div>
+                                <div class="destination-content">
+                                    <div class="destination-title">
+                                        <h4>Rome, Italty</h4>
+                                        <div>$5.42k</div>
+                                    </div>
+                                    <div class="destination-time-trip">
+                                        <i class="fa-solid fa-location-arrow"></i>
+                                        <span>10 Days Trip</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="destination-card">
+                            <a href="#">
+                                <div class="destination-img">
+                                    <img src="./images/destination_2.png" alt="">
+                                </div>
+                                <div class="destination-content">
+                                    <div class="destination-title">
+                                        <h4>London, UK</h4>
+                                        <div>$4.22k</div>
+                                    </div>
+                                    <div class="destination-time-trip">
+                                        <i class="fa-solid fa-location-arrow"></i>
+                                        <span>12 Days Trip</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="destination-card">
+                            <a href="#">
+                                <div class="destination-img">
+                                    <img src="./images/destination_3.png" alt="">
+                                </div>
+                                <div class="destination-content">
+                                    <div class="destination-title">
+                                        <h4>Full Europe</h4>
+                                        <div>$15k</div>
+                                    </div>
+                                    <div class="destination-time-trip">
+                                        <i class="fa-solid fa-location-arrow"></i>
+                                        <span>28 Days Trip</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEPS -->
+        <section id="step" class="section-wrapper">
+            <div class="step-container container">
+                <div class="step-left">
+                    <div class="step-header section-header">
+                        <div class="caption">Easy and Fast</div>
+                        <h2 class="title">Book your next trip <br /> in 3 easy steps</h2>
+                    </div>
+                    <ul class="step-list">
+                        <li class="step-item active">
+                            <div class="step-item__icon" style="--bg-icon: #ffcc00">
+                                <i class="fa-solid fa-plane"></i>
+                            </div>
+                            <div class="step-item__content">
+                                <div class="step-item__title">Choose Destination</div>
+                                <p class="step-item__description">Browse through a variety of exciting destinations and select the one that suits your travel dreams.</p>
+                            </div>
+                        </li>
+                        <li class="step-item">
+                            <div class="step-item__icon" style="--bg-icon: #ff3b2f">
+                                <i class="fa-solid fa-person-swimming"></i>
+                            </div>
+                            <div class="step-item__content">
+                                <div class="step-item__title">Make Payment</div>
+                                <p class="step-item__description">Complete your booking effortlessly with secure payment options, ensuring a hassle-free start to your trip.</p>
+                            </div>
+                        </li>
+                        <li class="step-item">
+                            <div class="step-item__icon" style="--bg-icon: #006380">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+                            <div class="step-item__content">
+                                <div class="step-item__title">Reach Airport on Selected Date</div>
+                                <p class="step-item__description">Arrive at the airport as scheduled, ready to begin your journey with everything well-prepared.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="step-right">
+                    <div class="step-preview">
+                        <div class="step-preview__img">
+                            <img src="./images/step_img_1.png" alt="">
+                        </div>
+                        <div class="step-preview__content">
+                            <div class="step-preview__title">
+                                <h4>Trip To Greece</h4>
+                                <div class="step-preview__time">14-29 June | by Robbin joseph</div>
+                            </div>
+                            <div class="step-preview__icons">
+                                <div class="step-preview__icon">
+                                    <i class="fa-solid fa-leaf"></i>
+                                </div>
+                                <div class="step-preview__icon">
+                                    <i class="fa-regular fa-map"></i>
+                                </div>
+                                <div class="step-preview__icon">
+                                    <i class="fa-solid fa-location-arrow"></i>
+                                </div>
+                            </div>
+                            <div class="step-preview__footer">
+                                <div class="step-preview__quantity">
+                                    <i class="fa-regular fa-building"></i>
+                                    <span>24 people going</span>
+                                </div>
+                                <button class="step-preview__like">
+                                    <i class="fa-regular fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIOMONIALS -->
+        <section id="testimonial" class="section-wrapper">
+            <div class="testimonial-container container">
+                <div class="testimonial-left">
+                    <div class="testimonial-header section-header">
+                        <div class="caption">Testimonials</div>
+                        <h2 class="title">What people say <br /> about Us.</h2>
+                    </div>
+                </div>
+                <div class="testimonial-right">
+                    <div class="testimonial-desktop">
+                        <div class="swiper testimonial-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_review_1.png" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-feedback">
+                                            “On the Windows talking painted pasture yet its express parties use. Sure
+                                            last
+                                            upon he same as knew next. Of believed or diverted no.”
+                                        </p>
+                                        <h4 class="testimonial-name">Mike Taylor</h4>
+                                        <div class="testimonial-location">Lahore, Pakistan</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_2.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-feedback">
+                                            “The cultural experiences offered were fantastic! I learned so much and 
+                                            enjoyed every moment. Highly recommended!”
+                                        </p>
+                                        <h4 class="testimonial-name">Anna Smith</h4>
+                                        <div class="testimonial-location">London, UK</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-feedback">
+                                            “Traveling with this company was the best decision I ever made. 
+                                            The guides were knowledgeable and friendly, and I felt well taken care of.”
+                                        </p>
+                                        <h4 class="testimonial-name">Carlos Gonzalez</h4>
+                                        <div class="testimonial-location">Madrid, Spain</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_4.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-feedback">
+                                            “The food and local cuisine were out of this world! Every meal was a new adventure, 
+                                            and I can't wait to come back for more!”
+                                        </p>
+                                        <h4 class="testimonial-name">Li Wei</h4>
+                                        <div class="testimonial-location">Beijing, China</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-btns">
+                            <div class="swiper-btn swiper-btn-prev">
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </div>
+                            <div class="swiper-btn swiper-btn-next">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-mobile">
+                        <div class="swiper testimonial-mobile-list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_review_1.png" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-content-header">
+                                            <h4 class="testimonial-name">Mike Taylor</h4>
+                                            <span>Lahore, Pakistan</span>
+                                        </div>
+                                        <p class="testimonial-feedback">
+                                            “On the Windows talking painted pasture yet its express parties use. Sure
+                                            last
+                                            upon he same as knew next. Of believed or diverted no.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_2.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-content-header">
+                                            <h4 class="testimonial-name">Anna Smith</h4>
+                                            <span>London, UK</span>
+                                        </div>
+                                        <p class="testimonial-feedback">
+                                            “The cultural experiences offered were fantastic! I learned so much and 
+                                            enjoyed every moment. Highly recommended!”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-content-header">
+                                            <h4 class="testimonial-name">Carlos Gonzalez</h4>
+                                            <span>Madrid, Spain</span>
+                                        </div>
+                                        <p class="testimonial-feedback">
+                                            “Traveling with this company was the best decision I ever made. 
+                                            The guides were knowledgeable and friendly, and I felt well taken care of.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-item">
+                                    <div class="testimonial-avatar">
+                                        <img src="./images/avatar_4.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-content-header">
+                                            <h4 class="testimonial-name">Li Wei</h4>
+                                            <span>Beijing, China</span>
+                                        </div>
+                                        <p class="testimonial-feedback">
+                                            “The food and local cuisine were out of this world! Every meal was a new adventure, 
+                                            and I can't wait to come back for more!”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-btns">
+                            <div class="swiper-btn swiper-btn-prev">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="swiper-btn swiper-btn-next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BRANDS -->
+        <section id="brands" class="section-wrapper">
+            <div class="container">
+                <ul class="brand-list">
+                    <li class="brand-item">
+                        <img src="./images/brand_1.png" alt="">
+                    </li>
+                    <li class="brand-item">
+                        <img src="./images/brand_2.png" alt="">
+                    </li>
+                    <li class="brand-item">
+                        <img src="./images/brand_3.png" alt="">
+                    </li>
+                    <li class="brand-item">
+                        <img src="./images/brand_4.png" alt="">
+                    </li>
+                    <li class="brand-item">
+                        <img src="./images/brand_5.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section-wrapper">
+            <div class="contact-container container">
+                <div class="location-icon">
+                    <i class="fa-solid fa-location-arrow"></i>
+                </div>
+                <div class="contact-container-inner">
+                    <div class="circle-icon circle-icon-left">
+                        <img src="./images/circle_nested.svg" alt="">
+                    </div>
+                    <div class="circle-icon circle-icon-right">
+                        <img src="./images/circle_nested_2.svg" alt="">
+                    </div>
+                    <div class="contact-content">
+                        <h2 class="contact-title">Subscribe to get information, latest news and other
+                            interesting offers about Jadoo</h2>
+                        <div class="contact-input-group">
+                            <div class="contact-input">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="text" placeholder="Your email" />
+                            </div>
+                            <button class="btn btn-subscribe">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="footer-item footer-logo">
+                    <a href="#" class="logo">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                    <p>Plan your perfect getaway in just minutes and enjoy complete control over your adventure for days
+                        on end. Your journey, your rules.</p>
+                    <ul class="footer-icons">
+                        <li class="footer-icons__item">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-icons__item">
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-icons__item">
+                            <a href="#">
+                                <i class="fa-brands fa-threads"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="title">Company</div>
+                    <ul>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Mobile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="title">Contact</div>
+                    <ul>
+                        <li>
+                            <a href="#">Help/FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Affilates</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="title">More</div>
+                    <ul>
+                        <li>
+                            <a href="#">Airlinefees</a>
+                        </li>
+                        <li>
+                            <a href="#">Airline</a>
+                        </li>
+                        <li>
+                            <a href="#">Low fare tips</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item footer-contact">
+                    <div class="title">Discover our app</div>
+                    <div class="footer-app-store">
+                        <a href="#">
+                            <img src="./images/button_google_play.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/button_app_store.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">All rights <span>reserved@jadoo.co</span></div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scroll-reveal.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
